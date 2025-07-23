@@ -1,0 +1,36 @@
+Page 1
+PROMPT:
+Label and categorize this PDF page content:
+
+TEXT CONTENT:
+This is a demo PDF to test AI labeling accuracy.
+It contains two images and some text content.
+Section 1: Introduction
+This section introduces the purpose of this document, which is to test the extraction and labeling
+capabilities of a large language model.
+Section 2: Content
+Here we include some visual content for testing.
+Below you will find two images.
+
+IMAGES FOUND: 2 images
+- Image 1: Size 200x100
+- Image 2: Size 200x100
+
+Provide clear labels like: Title, Header, Paragraph, Image, Table, List, etc.
+
+RESPONSE:
+Here is the labeled and categorized content of the PDF page:
+
+**TEXT CONTENT**
+
+* **Title**: This is a demo PDF to test AI labeling accuracy.
+* **Header**: Section 1: Introduction
+* **Paragraph**: This section introduces the purpose of this document, which is to test the extraction and labeling capabilities of a large language model.
+
+**IMAGES FOUND**
+
+* **Image 1**: Size 200x100
+* **Image 2**: Size 200x100
+
+Note that there are only two images in total.
+
