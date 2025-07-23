@@ -1,38 +1,44 @@
 # 📄 PDF Content Labeling and Query Interface
 
-This project provides an intelligent and interactive solution to extract, label, and query PDF documents using AI models. It uses **Streamlit** for the frontend UI and **LLM-based processing** to interpret and answer user queries on PDF content and metadata.
+
+
+This project provides an intelligent and interactive tool to extract, label, and query content from PDF documents using local AI models. The application is built with Streamlit for the frontend and uses LLMs (via Ollama) for content labeling and answering user queries.
 
 ---
 
 ## Objective
 
-- Extract and label content (text/images/metadata) from PDF documents.
-- Provide a user-friendly interface for querying PDF contents using natural language.
-- Deliver relevant and accurate answers using a large language model (LLM).
+- Extract text, images, and table-like structures from PDF files.
+- Label content using natural language processing (e.g., Title, Header, Table).
+- Provide a query interface that allows users to ask questions about the document content.
+- Support local model execution using the Ollama framework.
 
 ---
 
-##  Approach
+## Approach
 
-### 1. **PDF Parsing and Content Extraction**
-- The application uses **PyMuPDF (fitz)** to extract:
-  - Raw text
-  - Page structure
+### 1. PDF Parsing and Content Extraction
+- Uses PyMuPDF (`fitz`) to extract:
+  - Text from each page
   - Embedded images
-  - Metadata (author, title, number of pages, etc.)
+  - Basic metadata (author, title, number of pages, etc.)
+  - Table-like text blocks using heuristic analysis
 
-### 2. **Content Labeling**
-- After extracting raw data, content is semantically categorized as:
-  - Headings
-  - Paragraphs
-  - Tables
-  - Figures
-  - References
-- This is done with the help of an LLM.
+### 2. Content Labeling
+- Extracted content is summarized and sent to a local LLM.
+- The model categorizes content into:
+  - Title
+  - Header
+  - Paragraph
+  - List
+  - Table
+  - Image
 
-### 3. **Query Interface with LLM**
-- User queries entered through the UI are passed to an LLM (e.g., via `ollama`, OpenAI, etc.).
-- The model interprets the query in the context of the extracted PDF content and returns the answer.
+### 3. Query Interface
+- Users can interactively ask questions about a specific page.
+- The question, along with the relevant content, is passed to the LLM.
+- The model returns precise answers in context.
+
 
  Setup Instructions
 1. Clone this Repository
