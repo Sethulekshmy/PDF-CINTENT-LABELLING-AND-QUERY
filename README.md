@@ -70,3 +70,8 @@ Ask questions about any page using the chat interface.
 
 See chat history and download full prompt/response logs in output_log.txt.
 
+Watch the demo video here:  
+[![Watch the video](https://img.youtube.com/vi/k665GSMjAmw/0.jpg)](https://youtu.be/k665GSMjAmw?si=d9D5BCMsGVLUjryX)
+
+ [Click here to open directly](https://youtu.be/k665GSMjAmw?si=d9D5BCMsGVLUjryX)
+
