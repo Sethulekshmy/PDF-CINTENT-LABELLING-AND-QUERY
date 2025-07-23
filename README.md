@@ -34,6 +34,30 @@ This project provides an intelligent and interactive solution to extract, label,
 - User queries entered through the UI are passed to an LLM (e.g., via `ollama`, OpenAI, etc.).
 - The model interprets the query in the context of the extracted PDF content and returns the answer.
 
----
+ Setup Instructions
+1. Clone this Repository
 
+git clone https://github.com/your-username/pdf-content-labeller.git
+cd pdf-content-labeller
+2.Install Requirements
+pip install -r requirements.txt
+
+3.streamlit run app.py
+
+
+## Usage
+
+Start the app using streamlit run app.py.
+
+Upload a PDF using the uploader widget.
+
+View:
+
+Extracted pages, images, and tables.
+
+Labelled content by the LLM.
+
+Ask questions about any page using the chat interface.
+
+See chat history and download full prompt/response logs in output_log.txt.
 
