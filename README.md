@@ -43,8 +43,8 @@ This project provides an intelligent and interactive tool to extract, label, and
  Setup Instructions
 1. Clone this Repository
 
-git clone https://github.com/your-username/pdf-content-labeller.git
-cd pdf-content-labeller
+git clone https://github.com/Sethulekshmy/PDF-CONTENT-LABELLING-AND-QUERY.git
+cd PDF-CONTENT-LABELLING-AND-QUERY
 
 
 2.Install Requirements
