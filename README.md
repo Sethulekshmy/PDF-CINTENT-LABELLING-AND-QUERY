@@ -17,11 +17,11 @@ This project provides an intelligent and interactive tool to extract, label, and
 
 ## Approach
 
-### 1. PDF Parsing and Content Extraction
+### 1. PDF  Content Extraction
 - Uses PyMuPDF (`fitz`) to extract:
   - Text from each page
-  - Embedded images
-  - Basic metadata (author, title, number of pages, etc.)
+  -  images
+  - Basic data (author, title, number of pages, etc.)
   - Table-like text blocks using heuristic analysis
 
 ### 2. Content Labeling
