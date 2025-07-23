@@ -45,7 +45,10 @@ This project provides an intelligent and interactive tool to extract, label, and
 
 git clone https://github.com/your-username/pdf-content-labeller.git
 cd pdf-content-labeller
+
+
 2.Install Requirements
+
 pip install -r requirements.txt
 
 3.streamlit run app.py
